@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/display_video_item"
+        android:title="Bunny Video" />
+
+    <item
+        android:id="@+id/sonic_video"
+        android:title="Sonic Video" />
+
+    <item
+        android:id="@+id/exit_menu_item"
+        android:title="Exit Applicaiton" />
+
+    <item
+        android:id="@+id/theme_menu_item"
+        android:title="Themes">
+
+        <menu android:id="@+id/theme_menu">
+            <item
+                android:id="@+id/blue_menu_item"
+                android:title="Blue" />
+
+            <item
+                android:id="@+id/red_menu_item"
+                android:title="Red" />
+
+        </menu>
+    </item>
+</menu>
